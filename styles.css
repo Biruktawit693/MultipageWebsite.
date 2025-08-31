@@ -1,0 +1,21 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: Arial, sans-serif; line-height: 1.6; background: #f4f4f4; }
+a { text-decoration: none; color: #333; }
+header { background: #333; color: #fff; padding: 10px 20px; display: flex; justify-content: space-between; align-items: center; }
+.logo { font-size: 1.5em; font-weight: bold; }
+.nav-links { list-style: none; display: flex; gap: 15px; }
+.nav-links li a { color: #fff; }
+.nav-links li a.active { text-decoration: underline; }
+.burger { display: none; cursor: pointer; flex-direction: column; gap: 5px; }
+.burger div { width: 25px; height: 3px; background: #fff; }
+main { padding: 20px; }
+.hero { text-align: center; margin: 40px 0; }
+.hero h1 { font-size: 2.5em; margin-bottom: 20px; }
+.btn { padding: 10px 20px; background: #3498db; color: #fff; border: none; border-radius: 5px; cursor: pointer; transition: background 0.3s; }
+.btn:hover { background: #2980b9; }
+.features, .projects { display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; margin-top: 20px; }
+.feature, .project { background: #fff; padding: 20px; border-radius: 5px; min-width: 200px; text-align: center; box-shadow: 0 0 5px rgba(0,0,0,0.1); }
+.contact form { display: flex; flex-direction: column; gap: 10px; max-width: 400px; margin: auto; }
+input, textarea { padding: 10px; border: 1px solid #ccc; border-radius: 5px; width: 100%; }
+button[type='submit'] { background: #27ae60; color: #fff; border: none; cursor: pointer; transition: background 0.3s; }
+button[type='submit']:hover { background: #219150; }
